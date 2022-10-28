@@ -57,3 +57,9 @@ settings.json
 
 # Test file
 test.R
+test/
+
+# Notes
+labNotes/
+*.pdf
+*.rmd
