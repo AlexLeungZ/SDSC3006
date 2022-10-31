@@ -5,18 +5,18 @@ attach(Carseats)
 # A
 summary(Carseats)
 
-lm.fit = lm(Sales ~ Price + Urban + US)
+lm.fit <- lm(Sales ~ Price + Urban + US)
 summary(lm.fit)
 
 # E
-lm.fit2 = lm(Sales ~ Price + US)
+lm.fit2 <- lm(Sales ~ Price + US)
 summary(lm.fit2)
 
 # G
 confint(lm.fit2, level = 0.95)
 
 # H
-ggplot(lm.fit2, aes(.fitted, .stdresid)) + 
+ggplot(lm.fit2, aes(.fitted, .stdresid)) +
     geom_point() +
     theme_linedraw()
 
