@@ -88,7 +88,7 @@ quit()
 
 ### Try running a test code
 
-1. Run the code ```test\r_test.ipynb```
+1. Run the code ```tools\r_test.ipynb```
 
 ## Credits
 
